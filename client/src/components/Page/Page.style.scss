@@ -8,4 +8,16 @@
   font-family: 'Courier new', monospace; 
   font-size: 16px; 
   color: #4b4646;  
+
+  width: 1500px;
+  height: 100px;
+  
+  animation-name: animation;
+  animation-duration: 2s;
+  animation-delay: 2s;
+
+}
+@keyframes animation {
+  from {background-color: rgb(239, 233, 239);}
+  to {background-color: rgb(42, 68, 107);}
 }
